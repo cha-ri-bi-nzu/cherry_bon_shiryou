@@ -1,16 +1,16 @@
-module Run
+module Land_animal
   def run
     puts "走れる"
   end
 end
 
-module Fly
+module Flying_creature
   def fly
     puts "飛べる"
   end
 end
 
-module Swim
+module Aquatic_animal
   def swim
     puts "泳げる"
   end

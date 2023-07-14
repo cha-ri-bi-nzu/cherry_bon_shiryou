@@ -9,3 +9,6 @@ class Nantoka
 end
 
 Nantoka.kantoka
+
+
+
