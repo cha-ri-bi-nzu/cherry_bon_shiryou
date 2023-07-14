@@ -18,6 +18,14 @@ class Bird
   end
 end
 
+
+
+
+
+
+
+
+
 class Insect
   def legs_6
     puts "足が6本ある"

@@ -35,6 +35,7 @@ puts "----------------"
 
 
 class Bat < Mammal
+  include Flying_creature
   def koumori
     puts "コウモリは"
   end

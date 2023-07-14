@@ -15,3 +15,4 @@ module Aquatic_animal
     puts "泳げる"
   end
 end
+

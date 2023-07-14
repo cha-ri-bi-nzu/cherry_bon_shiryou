@@ -1,5 +1,4 @@
 require './animal_class.rb'
-require './characteristic.rb'
 
 
 class Human < Mammal
