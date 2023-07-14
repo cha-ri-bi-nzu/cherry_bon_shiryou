@@ -7,7 +7,7 @@ class Ostrich < Bird
   end
 end
 
-class Wild_Duck < Bird
+class WildDuck < Bird
   def kamo
     puts "カモは"
   end

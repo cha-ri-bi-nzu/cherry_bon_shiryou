@@ -3,7 +3,7 @@ require './characteristic.rb'
 
 
 class Human < Mammal
-  include Land_animal
+  include LandAnimal
   def ningen
     puts "ニンゲンは"
   end
@@ -19,7 +19,7 @@ puts "----------------"
 
 
 class Whale < Mammal
-  include Aquatic_animal
+  include AquaticAnimal
   def kujira
     puts "クジラは"
   end
@@ -35,7 +35,7 @@ puts "----------------"
 
 
 class Bat < Mammal
-  include Flying_creature
+  include FlyingCreature
   def koumori
     puts "コウモリは"
   end

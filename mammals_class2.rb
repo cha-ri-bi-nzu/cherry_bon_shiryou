@@ -37,8 +37,8 @@ end
 
 bat = Bat.new
 bat.koumori       # => コウモリは
-bat.teeth        # => 歯がある
-bat.viviparous   # => 出産する
+bat.teeth         # => 歯がある
+bat.viviparous    # => 出産する
 
 
 
