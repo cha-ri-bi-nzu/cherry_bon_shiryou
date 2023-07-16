@@ -35,6 +35,7 @@ puts "----------------"
 
 
 class Penguin < Bird
+  extend AquaticAnimal
   def pengin
     puts "ペンギンは"
   end
@@ -44,3 +45,4 @@ penguin = Penguin.new
 penguin.pengin   # => ペンギンは
 penguin.beak     # => クチバシがある
 penguin.down     # => 羽毛がある
+Penguin.swim     # => 泳げる
